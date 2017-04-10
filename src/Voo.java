@@ -3,25 +3,25 @@ import java.util.Date;
 public class Voo 
 {
 	/*numero de identicacao do voo*/
-	int idVoo;
+	private int idVoo;
 	
 	/*nome da companhia que realiza o trajeto*/
-	String companhiaAerea;
+	private String companhiaAerea;
 	
 	/*numero de identificacao da aeronave*/
-	int idAviao;
+	private int idAviao;
 	
 	/*data de realizacao do voo*/
-	Date dataVoo;
+	private Date dataVoo;
 	
 	/*condicao em que o voo se encontra*/
-	StatusVoo statusVooo;
+	private StatusVoo statusVooo;
 	
 	/*ponto de partida do voo*/
-	String localOrigem;
+	privateString localOrigem;
 	
 	/*ponto de destino do voo*/
-	String localDestino;
+	private String localDestino;
 	
 	/**/	
 	//Behaviors To do
