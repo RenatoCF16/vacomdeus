@@ -1,9 +1,19 @@
+import java.util.Date;
 
 public class Passageiro 
 {
 	/*nome completo do passageiro*/
-	String nome;
+	private String nome;
 	
 	/*telefone do passageiro*/
-	String telefone;
+	private String telefone;
+	
+	/*email do passageiro valido*/
+	private String cpf;
+	
+	/*email do passageiro valido*/
+	private String email;
+	
+	/*data de nascimento do passageiro*/
+	private Date dataNascimento; 
 }
