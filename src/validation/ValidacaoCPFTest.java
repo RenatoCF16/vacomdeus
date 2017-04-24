@@ -1,9 +1,9 @@
 package validation;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import junit.framework.Assert;
 
 public class ValidacaoCPFTest {
 
@@ -16,7 +16,8 @@ public class ValidacaoCPFTest {
 		
 		teste = teste.replaceAll("[.-]","");
 		
-		Assert.assertEquals("12172263621", teste);
+		assertEquals("12172263621", teste);
+		
 		//Assert.assertEquals(true, cpf.isCPF("12172263621"));
 	}
 }

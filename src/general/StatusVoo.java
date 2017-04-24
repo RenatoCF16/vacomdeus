@@ -2,9 +2,9 @@ package general;
 
 public enum StatusVoo 
 {
-	confirmado("O Vï¿½o estï¿½ na programï¿½ï¿½o correta"),
-	cancelado("O Vï¿½o foi cancelado"),
-	Atrasado("O Vï¿½o estï¿½ atrasado");
+	confirmado("O Vôo está na programção correta"),
+	cancelado("O Vôo foi cancelado"),
+	Atrasado("O Vôo está atrasado");
 	
 	/*mensagem que o tipo carrega*/
 	private String mensagem;
