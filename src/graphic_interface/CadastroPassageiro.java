@@ -14,6 +14,11 @@ import general.*;
 
 public class CadastroPassageiro extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	private Passageiro passageiro = new Passageiro();
 
 	public CadastroPassageiro() {
